@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    model button
+    <item>
+
+        <shape>
+            <corners android:radius="50dp"/>
+
+            <solid
+                android:color="#02f9d8"/>
+
+            <stroke
+                android:width="3dp"
+                android:color="@android:color/white"/>
+
+
+
+        </shape>
+    </item>
+</selector>

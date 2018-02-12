@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tinggi_gambar_login">100dp</dimen>
+    <dimen name="jarak_samping_kanan">16dp</dimen>
+    <dimen name="jarak_samping_kiri">16dp</dimen>
+    <dimen name="jarak_atas_gambar">50dp</dimen>
+    <dimen name="jarak_atas">16dp</dimen>
+    <dimen name="app_bar_height">198dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

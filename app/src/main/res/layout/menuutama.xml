@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/android">
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btntoast"
+            android:layout_marginTop="10dp"
+            android:text="@string/toast"
+            android:onClick="btntoastclikc"
+            android:background="@drawable/modelapik"/>
+            <Button
+                android:id="@+id/btnalert_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/AlertDialog"
+                android:onClick="btnalert_dialogclick"
+                android:background="@drawable/modelapik"/>
+            <Button
+                android:id="@+id/btnspiner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn2"
+                android:layout_marginTop="10dp"
+                android:text="@string/Spinner"
+                android:onClick="btnspiner"
+                android:background="@drawable/modelapik"/>
+            <Button
+                android:id="@+id/btnlist_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn3"
+                android:layout_marginTop="10dp"
+                android:text="@string/List_View"
+                android:onClick="btnlist_view"
+                android:background="@drawable/modelapik"/>
+            <Button
+                android:id="@+id/btncustom_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn4"
+                android:layout_marginTop="10dp"
+                android:text="@string/Custom_Listview"
+                android:onClick="btncustom_listview"
+                android:background="@drawable/modelapik" />
+            <Button
+                android:id="@+id/btnwebview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt5"
+                android:layout_marginTop="10dp"
+                android:text="@string/WebView"
+                android:onClick="btnwebview"
+                android:background="@drawable/modelapik"/>
+            <Button
+                android:id="@+id/btnview_rager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn6"
+                android:layout_marginTop="10dp"
+                android:text="@string/View_Rager"
+                android:onClick="btnview_rager"
+                android:background="@drawable/modelapik"/>
+
+            <Button
+                android:id="@+id/btninput_user"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn8"
+                android:background="@drawable/modelapik"
+                android:onClick="btninput_user"
+                android:text="@string/Input_User" />
+
+            <Button
+                android:id="@+id/btnnavigation_drawer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn7"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/modelapik"
+                android:onClick="btnnavigation_drawer"
+                android:text="@string/Navigation_Drawer" />
+
+            <Button
+                android:id="@+id/btndialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn9"
+                android:layout_marginTop="10dp"
+                android:text="@string/Dialog"
+                android:onClick="btndialog"
+                android:background="@drawable/modelapik"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

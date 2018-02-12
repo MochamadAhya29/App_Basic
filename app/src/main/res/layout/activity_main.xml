@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/jarak_samping_kanan"
+    android:paddingLeft="@dimen/jarak_samping_kiri"
+    android:background="@drawable/android"
+    tools:context="com.example.afiq.app_basic.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tinggi_gambar_login"
+            android:src="@drawable/gaktau" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_username"
+            android:inputType="textPersonName"
+            android:textColor="#fcfcfc"
+            android:layout_marginTop="@dimen/jarak_atas"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/jarak_atas_gambar"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:textColor="#f9f7f7" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:text="@string/btnlogin"
+            android:textSize="20dp"
+            android:layout_marginTop="@dimen/jarak_atas"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CingCAuLe</string>
+    <string name="hint_username">Gaktau</string>
+    <string name="hint_password">Gaktau</string>
+    <string name="btnlogin">Gaktau</string>
+    <string name="titleAlert">judul Alert</string>
+    <string name="alertya">alert ya</string>
+    <string name="alertTidak">alert tidak</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GakTau</string>
+    <string name="hint_username">GakTau</string>
+    <string name="hint_password">GakTau</string>
+    <string name="btnlogin">GakTau</string>
+</resources>
